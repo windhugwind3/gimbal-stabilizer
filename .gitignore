@@ -1,0 +1,48 @@
+# STM32CubeIDE
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# PlatformIO
+.pio/
+
+# Keil
+Objects/
+Listings/
+*.uvguix.*
+*.scvd
+
+# 编译产物
+*.su
+*.d
+*.dep
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+
+# 环境变量与密钥
+.env
+.env.*
+secrets.h
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
